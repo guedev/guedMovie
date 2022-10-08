@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
+
+import { Home } from './assets/pages/Home';
+import { Movie } from './assets/pages/Movie';
+import { Search } from './assets/pages/Search';
+
 import './index.css' ;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
